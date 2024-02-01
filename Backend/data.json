@@ -1,0 +1,72 @@
+{
+    "trendings": [
+      {
+        "year": "2019",
+        "keywords": ["AI", "Blockchain", "Big Data", "Internet of Things", "Cloud Computing"],
+        "trends": ["Digital Transformation", "Data Privacy", "Cybersecurity", "Artificial Intelligence", "E-commerce"],
+        "countries": ["United States", "China", "Japan", "Germany", "United Kingdom"],
+        "country-percentage": [35, 25, 15, 10, 5],
+        "keyword-wise-country-percentage": [
+          {"keyword": "AI", "country": "United States", "percentage": 40},
+          {"keyword": "AI", "country": "China", "percentage": 30},
+          {"keyword": "AI", "country": "Japan", "percentage": 20},
+          {"keyword": "AI", "country": "Germany", "percentage": 5},
+          {"keyword": "AI", "country": "United Kingdom", "percentage": 5},
+          {"keyword": "Blockchain", "country": "United States", "percentage": 30},
+          {"keyword": "Blockchain", "country": "China", "percentage": 25},
+          {"keyword": "Blockchain", "country": "Japan", "percentage": 15},
+          {"keyword": "Blockchain", "country": "Germany", "percentage": 10},
+          {"keyword": "Blockchain", "country": "United Kingdom", "percentage": 20},
+          {"keyword": "Big Data", "country": "United States", "percentage": 35},
+          {"keyword": "Big Data", "country": "China", "percentage": 20},
+          {"keyword": "Big Data", "country": "Japan", "percentage": 15},
+          {"keyword": "Big Data", "country": "Germany", "percentage": 10},
+          {"keyword": "Big Data", "country": "United Kingdom", "percentage": 20},
+          {"keyword": "Internet of Things", "country": "United States", "percentage": 30},
+          {"keyword": "Internet of Things", "country": "China", "percentage": 25},
+          {"keyword": "Internet of Things", "country": "Japan", "percentage": 15},
+          {"keyword": "Internet of Things", "country": "Germany", "percentage": 10},
+          {"keyword": "Internet of Things", "country": "United Kingdom", "percentage": 20},
+          {"keyword": "Cloud Computing", "country": "United States", "percentage": 35},
+          {"keyword": "Cloud Computing", "country": "China", "percentage": 20},
+          {"keyword": "Cloud Computing", "country": "Japan", "percentage": 15},
+          {"keyword": "Cloud Computing", "country": "Germany", "percentage": 10},
+          {"keyword": "Cloud Computing", "country": "United Kingdom", "percentage": 20}
+        ]
+      },
+      {
+        "year": "2020",
+        "keywords": ["5G", "Virtual Reality", "Augmented Reality", "Edge Computing", "Robotics"],
+        "trends": ["Remote Work", "E-learning", "Contactless Payments", "Telemedicine", "Supply Chain Management"],
+        "countries": ["United States", "China", "Japan", "Germany", "United Kingdom"],
+        "country-percentage": [30, 25, 20, 15, 10],
+        "keyword-wise-country-percentage": [
+          {"keyword": "5G", "country": "United States", "percentage": 35},
+          {"keyword": "5G", "country": "China", "percentage": 30},
+          {"keyword": "5G", "country": "Japan", "percentage": 20},
+          {"keyword": "5G", "country": "Germany", "percentage": 10},
+          {"keyword": "5G", "country": "United Kingdom", "percentage": 5},
+          {"keyword": "Virtual Reality", "country": "United States", "percentage": 30},
+          {"keyword": "Virtual Reality", "country": "China", "percentage": 25},
+          {"keyword": "Virtual Reality", "country": "Japan", "percentage": 20},
+          {"keyword": "Virtual Reality", "country": "Germany", "percentage": 15},
+          {"keyword": "Virtual Reality", "country": "United Kingdom", "percentage": 10},
+          {"keyword": "Augmented Reality", "country": "United States", "percentage": 35},
+          {"keyword": "Augmented Reality", "country": "China", "percentage": 25},
+          {"keyword": "Augmented Reality", "country": "Japan", "percentage": 20},
+          {"keyword": "Augmented Reality", "country": "Germany", "percentage": 10},
+          {"keyword": "Augmented Reality", "country": "United Kingdom", "percentage": 10},
+          {"keyword": "Edge Computing", "country": "United States", "percentage": 30},
+          {"keyword": "Edge Computing", "country": "China", "percentage": 25},
+          {"keyword": "Edge Computing", "country": "Japan", "percentage": 20},
+          {"keyword": "Edge Computing", "country": "Germany", "percentage": 15},
+          {"keyword": "Edge Computing", "country": "United Kingdom", "percentage": 10},
+          {"keyword": "Robotics", "country": "United States", "percentage": 35},
+          {"keyword": "Robotics", "country": "China", "percentage": 25},
+          {"keyword": "Robotics", "country": "Japan", "percentage": 20},
+          {"keyword": "Robotics", "country": "Germany", "percentage": 10},
+          {"keyword": "Robotics", "country": "United Kingdom", "percentage": 10}
+        ]
+      }
+    ]
+  }

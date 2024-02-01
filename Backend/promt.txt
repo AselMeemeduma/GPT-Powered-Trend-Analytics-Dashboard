@@ -1,0 +1,19 @@
+Act as data analytic expert experienced 10 years in the industry.
+What are the top 5 trends and keywords in the Education industry? 
+Give timeline data and trending countries in JSON format. only the data. no texts.
+Analyze the previous 5 years, 
+Including the top 5 countries with the percentages in the trending countries with decending order
+For each keywords it needs to have the percentages with decending order
+Trendings should be in percentages and should be aligned with countries with decending order
+Trending percentages sum should be 100%. 
+JSON format should be like,
+{ "trendings": [{"year": "", "keywords": [], "trends": [], "countries":[], "country-percentage":[], "keyword-wise-country-percentage": [{ "keyword": "", "country": "", "percentage": "" }] }]}
+
+
+Provide a data analysis report on the top 5 trends and keywords in the Education industry over the past 5 years.
+The report should be presented in JSON format and include timeline data as well as the trending countries.
+Each trend and keyword should be accompanied by its respective percentages, aligned with the top 5 countries in descending order.
+ The sum of the trending percentages should be 100%.
+The JSON format should follow this structure:
+{ "trendings": [{"year": "", "keywords": [], "trends": [], "countries":[], "country-percentage":[], "keyword-wise-country-percentage": [{ "keyword": "", "country": "", "percentage": "" }] }]}
+The report should be focused on providing a clear and concise analysis of the top trends and keywords, along with their associated percentages and trending countries in the Education industry over the specified time period.only the data. no texts.
