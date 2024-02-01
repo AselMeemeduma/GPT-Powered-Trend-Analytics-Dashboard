@@ -7,6 +7,7 @@ import {PieChart, BarChart} from '@mui/x-charts';
 import { Box } from '@mui/material';
 import { useMediaQuery } from '@mui/material';
 import { Grid } from '@mui/material';
+import { randomColor } from 'randomcolor';
 
 
 Chart.register(...registerables);
@@ -40,21 +41,21 @@ function TrendingCard({ data }) {
       <CardContent>
         <Grid container spacing={2}>
           <Grid item xs={12} sm={6}>
-            <Typography variant="h3" component="div">
+            <Typography variant="h2" component="div">
               Analysis data for year : {data.year}
             </Typography>
-            <Typography variant="body2" sx={{ fontSize: '1.3rem' }}>
+            <Typography variant="body2" sx={{ fontSize: '1.8rem' }}>
               <strong>Keywords:</strong> {data.keywords.join(', ')}
             </Typography>
-            <Typography variant="body2" sx={{ fontSize: '1.3rem' }}>
+            <Typography variant="body2" sx={{ fontSize: '1.8rem' }}>
               <strong>Trends:</strong> {data.trends.join(', ')}
             </Typography>
-            <Typography variant="body2" sx={{ fontSize: '1.3rem' }}>
+            <Typography variant="body2" sx={{ fontSize: '1.8rem' }}>
               <strong>Countries:</strong> {data.countries.join(', ')}
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <PieChart series={[{ data: pieData.datasets }]} width={matches ? 300 : 800} height={matches ? 200 : 400} />
+            <PieChart series={[{ data: pieData.datasets }]} width={matches ? 400 : 900} height={matches ? 300 : 500} />
           </Grid>
         </Grid>
         <Grid container spacing={2}>
@@ -64,10 +65,11 @@ function TrendingCard({ data }) {
                 {country}
               </Typography>
               <BarChart
-                width={matches ? 350 : 700}
+                width={matches ? 380 : 730}
                 height={matches ? 200 : 400}
                 series={[{ data: keywordData.map((keywords, index) => keywords.data), label: country, id: `${country}Id` }]}
                 xAxis={[{ data: data.keywords.map((keyword, index) => keyword), scaleType: 'band' }]}
+                colors={keywordData.map(() => randomColor())}
               />
             </Grid>
           ))}
